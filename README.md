@@ -92,4 +92,12 @@ Make sure you have the following installed:
 - Google Cloud Speech-to-Text and Text-to-Speech API keys (for `gradio_speech_to_text_and_video.py` and `gradio_google_video_to_speech_and_text.py`)
 
 
+## Deployment
+
+Explore the live demos of the projects on Hugging Face Spaces:
+
+- [Sahla-speech2sign](https://huggingface.co/spaces/AdelShousha/Sahla-speech2sign)
+- [Sahla-sign2speech](https://huggingface.co/spaces/AdelShousha/Sahla-sign2speech)
+
+This allows you to experience the functionality without setting up the environment locally.
 
