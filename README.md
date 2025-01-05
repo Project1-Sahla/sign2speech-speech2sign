@@ -46,6 +46,30 @@ pip install -r requirements.txt
 
 This will install all the dependencies required for the project.
 
+
+## Development Notebooks
+
+This section provides an overview of the Jupyter notebooks used in the development of the project.
+
+### data_prep.ipynb
+
+This notebook is used for data preparation, including data cleaning, preprocessing, and splitting the data into training and testing sets. It ensures that the data is in the correct format and ready for model training.
+
+### train_gesture_recognizer.ipynb
+
+In this notebook, the gesture recognizer model is trained. It includes setting up the model architecture, defining training parameters, and running the training loop. This notebook is essential for developing the model's ability to recognize gestures accurately.
+
+### test_gesture_recognizer.ipynb
+
+This notebook is used to evaluate the performance of the trained gesture recognizer model. It involves testing the model on a validation dataset to assess its accuracy and effectiveness.
+
+
+## Instructions for Running Notebooks
+
+1. **Environment Setup**: Make sure you have a Python environment set up with all dependencies installed.
+2. **Running Notebooks**: Open the notebooks in Jupyter or any compatible notebook interface and run them in the specified order.
+
+
 ## File Overview
 
 ### Folder: `sign2speech`
@@ -100,4 +124,3 @@ Explore the live demos of the projects on Hugging Face Spaces:
 - [Sahla-sign2speech](https://huggingface.co/spaces/AdelShousha/Sahla-sign2speech)
 
 This allows you to experience the functionality without setting up the environment locally.
-
