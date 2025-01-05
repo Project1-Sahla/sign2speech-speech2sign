@@ -1,0 +1,26 @@
+# Ignore all .gradio folders
+.gradio/
+
+# Ignore ArSL_dataset_sample_two_sides folder
+ArSL_dataset_sample_two_sides/
+
+# Ignore grad folder
+grad/
+
+# Ignore sign_to_text/pipe_venv folder
+sign_to_text/pipe_venv/
+
+# Ignore all __pycache__ folders
+__pycache__/ 
+
+# Ignore sahla_test.webm file
+sahla_test.webm
+
+speech_to_sign/service_account_speech_to_text.json
+
+sign_to_speech/service_account_text_to_speech.json
+
+speech_to_sign/gradio_speech_to_text.py
+
+*.mp4
+*.mp3
