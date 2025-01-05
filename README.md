@@ -51,15 +51,15 @@ This will install all the dependencies required for the project.
 
 This section provides an overview of the Jupyter notebooks used in the development of the project.
 
-### data_prep.ipynb
+### `data_prep.ipynb`
 
 This notebook is used for data preparation, including data cleaning, preprocessing, and splitting the data into training and testing sets. It ensures that the data is in the correct format and ready for model training.
 
-### train_gesture_recognizer.ipynb
+### `train_gesture_recognizer.ipynb`
 
 In this notebook, the gesture recognizer model is trained. It includes setting up the model architecture, defining training parameters, and running the training loop. This notebook is essential for developing the model's ability to recognize gestures accurately.
 
-### test_gesture_recognizer.ipynb
+### `test_gesture_recognizer.ipynb`
 
 This notebook is used to evaluate the performance of the trained gesture recognizer model. It involves testing the model on a validation dataset to assess its accuracy and effectiveness.
 
@@ -74,14 +74,14 @@ This notebook is used to evaluate the performance of the trained gesture recogni
 
 ### Folder: `sign2speech`
 
-- **gradio_elevenlabs_video_to_speech_and_text.py**: A Python script that uses Gradio to create a web interface. It takes a video of sign language and converts it to text and speech using the ElevenLabs API.
-- **gradio_google_video_to_speech_and_text.py**: A Python script similar to the one above, but it uses Google Text-to-Speech for speech synthesis.
-- **Amiri-Regular.ttf**: A font file used in the code for text rendering.
-- **Arsl_gesture_recognizer.task**: A MediaPipe gesture recognition model that recognizes Arabic language letters.
+- **`gradio_elevenlabs_video_to_speech_and_text.py`**: A Python script that uses Gradio to create a web interface. It takes a video of sign language and converts it to text and speech using the ElevenLabs API.
+- **`gradio_google_video_to_speech_and_text.py`**: A Python script similar to the one above, but it uses Google Text-to-Speech for speech synthesis.
+- **`Amiri-Regular.ttf`**: A font file used in the code for text rendering.
+- **`Arsl_gesture_recognizer.task`**: A MediaPipe gesture recognition model that recognizes Arabic language letters.
 
 ### Folder: `speech2sign`
 
-- **gradio_speech_to_text_and_video.py**: A Python script that uses Gradio to create a web interface. It takes speech input, converts it to text using Google Speech-to-Text, and then converts the text to a video of sign language.
+- **`gradio_speech_to_text_and_video.py`**: A Python script that uses Gradio to create a web interface. It takes speech input, converts it to text using Google Speech-to-Text, and then converts the text to a video of sign language.
 
 ## Usage
 
