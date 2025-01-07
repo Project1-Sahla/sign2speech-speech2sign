@@ -52,13 +52,17 @@ def transcribe_audio(sound):
     for result in response.results:
         transcript += result.alternatives[0].transcript + ' '
 
+    print("Transcript:", transcript)
+
         # Convert the audio to MP3
     audio_segment = AudioSegment.from_wav(io.BytesIO(content))
     mp3_file_path = "recorded_audio.mp3"
     audio_segment.export(mp3_file_path, format="mp3")
 
-    # Return both MP3 and the placeholder video
-    video_file_path = "hand.mp4"  # Placeholder video
+    if transcript.strip().lower() in ['سهلة', 'سهله']:
+        video_file_path = "sahla.mp4"
+    else:
+        video_file_path = "hand.mp4" 
 
     return transcript.strip(), mp3_file_path, video_file_path
 
